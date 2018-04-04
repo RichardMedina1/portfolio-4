@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+* {
+	box-sizing: border-box;
+	}
+
+html{
+	margin:0 ;
+	padding: 0;
+	
+	}
+
+body {
+	background-color: grey;
+	}
+
+/*-- Header Section--*/
+.header{
+	border: 2px solid black;
+	font-family: 'Rochester', cursive;
+	padding-bottom: 2px;
+	text-align: left;
+	background-color:  #3385ff;
+	}
+
+.header h3{
+	padding-left: 70px;
+	color: #d3d3d3;
+	font-size: 35px;
+	}
+
+/*-- Underneath the header section --*/
+.under-header{
+    border: 2px solid black;
+    background-color: blue;
+	}
+
+.under-header p{
+    font-family: 'Arvo', serif;
+	font-size: 25px;
+	font-weight: 1rem;
+	text-transform: uppercase;
+	}
+
+
+.inner{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+.inner p {
+	font-family: 'Oswald', sans-serif;
+	color: #d3d3d3;
+	}
+
+#section-a{
+	border: 2px solid black;
+	background-color: white;
+
+	}
+
+.imgcontainer{
+	
+	width: 400px;
+	height: 300px;
+	background-color: grey;
+	border: 1px solid red;
+	margin: 10px auto;
+	}
+
+img{
+	display: block;
+	vertical-align: left;
+	max-height: 100%;
+    max-width: 100%;
+	}
+
+#section-a p{
+	display: inline-block;
+	}
+
+.img2{
+	
+    vertical-align: left;
+    height: 50px;
+	}
+
+.row{
+	border: 1px solid black;
+	display: flex;
+	}
+
+.column1{
+   background-color: #3385ff;
+   flex: 1;
+   }
+
+.column2{
+	flex: 2;
+	
+	background-color: blue;
+	border-left: 1px black solid;
+	
+	
+
+	}
+
+.column1 p, .column1 h2,
+.column2 p, .column2 h2,
+.column1 h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: underline;
+	}
+.column2 h2,p{
+  text-align: center;
+}
+
+#foot{
+	background-color: white;
+	border: 2px solid black;
+	height: 100px;
+	display: flex;
+	}
+
+.footer-width p{
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	flex: 1;
+
+
+}
